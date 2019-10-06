@@ -51,6 +51,6 @@ steps:
   inputs:
     command: buildAndPush
     containerRegistry: Docker Hub connection
-    repository: myproject
+    repository: sharatmenon/dxm_repository
     
       
