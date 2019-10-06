@@ -51,7 +51,6 @@ steps:
   inputs:
     command: buildAndPush
     containerRegistry: Docker Hub connection
-    repository: dxm_repository
-    tags: |
-      tag1
-      tag2
+    repository: myproject
+    
+      
