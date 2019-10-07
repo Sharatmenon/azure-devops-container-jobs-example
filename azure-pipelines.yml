@@ -93,6 +93,6 @@ jobs:
     displayName: Docker build and Push
     inputs:
       command: buildAndPush
-      containerRegistry: 'DXMRegistry'
+      containerRegistry: 'ACR Connection'
       repository: myproject
       tags: $(Build.BuildNumber)
