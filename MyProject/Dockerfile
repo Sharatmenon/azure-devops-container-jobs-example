@@ -1,4 +1,4 @@
-﻿FROM mcr.microsoft.com/dotnet/core/runtime:2.2
+﻿FROM mcr.microsoft.com/dotnet/core/sdk:2.2.402
 WORKDIR /app
 COPY . .
 ENTRYPOINT [ "dotnet", "myproject.dll" ]
