@@ -68,7 +68,7 @@ jobs:
       arguments: '--configuration release'
 
   - task: PublishPipelineArtifact@0
-    displayName: Store artefact
+    displayName: Store artifact
     inputs:
       artifactName: 'MyProject'
       targetPath: 'MyProject/bin/release/netcoreapp2.2/publish/'
