@@ -29,7 +29,7 @@ namespace MyProject
                 return;
             }
 
-            // Get the colour from cache service
+            // Get the colour from cache services
             IFavouriteColourCache cache = services.GetRequiredService<IFavouriteColourCache>();
 
             // Get the favourite colour of the person
